@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.6850" tests="6" failures="4">
+  <testsuite name="Root Suite" timestamp="2020-01-27T03:30:37" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fifa data processing" timestamp="2020-01-27T03:30:37" tests="6" file="/home/vinicius/codenation/nodejs-1/test/submit.test.js" time="9.6850" failures="4">
+    <testcase name="Fifa data processing q1" time="1.6780" classname="q1">
+    </testcase>
+    <testcase name="Fifa data processing q2" time="1.6440" classname="q2">
+    </testcase>
+    <testcase name="Fifa data processing q3" time="1.5290" classname="q3">
+      <failure message="expected [ Array(20) ] to have the same members as [ Array(20) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(20) ] to have the same members as [ Array(20) ]
+    at Context.it (test/submit.test.js:20:32)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q4" time="1.6670" classname="q4">
+      <failure message="expected [ Array(10) ] to have the same members as [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to have the same members as [ Array(10) ]
+    at Context.it (test/submit.test.js:47:32)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q5" time="1.6950" classname="q5">
+      <failure message="expected [ Array(10) ] to have the same members as [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to have the same members as [ Array(10) ]
+    at Context.it (test/submit.test.js:64:32)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q6" time="1.4720" classname="q6">
+      <failure message="expected undefined to be an object" type="AssertionError"><![CDATA[AssertionError: expected undefined to be an object
+    at Context.it (test/submit.test.js:80:30)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="2.585">
+  <testsuite name="The API on /v1/auth/login Endpoint at POST method should..." errors="0" failures="0" skipped="0" timestamp="2020-03-07T20:34:56" time="1.969" tests="8">
+    <testcase classname="The API on /v1/auth/login Endpoint at POST method should... return 200 as status code and the new token generated" name="The API on /v1/auth/login Endpoint at POST method should... return 200 as status code and the new token generated" time="0.051">
+    </testcase>
+    <testcase classname="The API on /v1/auth/login Endpoint at POST method should... return 401 as status code for a given user or password invalid" name="The API on /v1/auth/login Endpoint at POST method should... return 401 as status code for a given user or password invalid" time="0.006">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at POST method should... return 201 as status code and the new record created" name="The API on /v1/teams Endpoint at POST method should... return 201 as status code and the new record created" time="0.049">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at POST method should... return 401 as status code if a invalid token is passed on header" name="The API on /v1/teams Endpoint at POST method should... return 401 as status code if a invalid token is passed on header" time="0.035">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at PATCH method should... return 200 as status code and the record updated" name="The API on /v1/teams Endpoint at PATCH method should... return 200 as status code and the record updated" time="0.067">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at PATCH method should... return 401 as status code if a invalid token is passed on header" name="The API on /v1/teams Endpoint at PATCH method should... return 401 as status code if a invalid token is passed on header" time="0.045">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at DELETE method should... return 204 as status code for a deleted team" name="The API on /v1/teams Endpoint at DELETE method should... return 204 as status code for a deleted team" time="0.055">
+    </testcase>
+    <testcase classname="The API on /v1/teams Endpoint at DELETE method should... return 401 as status code if a invalid token is passed on header" name="The API on /v1/teams Endpoint at DELETE method should... return 401 as status code if a invalid token is passed on header" time="0.041">
+    </testcase>
+  </testsuite>
+</testsuites>
